@@ -84,7 +84,7 @@
     margin-bottom: 1rem;
   }
   .hero-content h1 {
-    font-size: 4.5rem;
+    font-size: 6.5rem;
     line-height: 1.2;
     margin-bottom: 1rem;
   }
@@ -522,7 +522,7 @@
   .hero-content {
     position: relative;
     color: var(--white);
-    max-width: 800px;
+    /* max-width: 800px; */
     padding: 0 1rem;
   }
   
@@ -535,11 +535,15 @@
   }
   
   .hero-content h1 {
+    font-size: 4.5rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+  }
+  .hero-content h2 {
     font-size: 2.5rem;
     line-height: 1.2;
     margin-bottom: 1.5rem;
   }
-  
   /* CTA */
   .cta-btn {
     display: inline-flex;
