@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Refit – Construction & Renovation</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- 2) Load Manrope -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">onexus</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#work">Our work</a></li>
+        <!-- <li><a href="#faqs">FAQs</a></li> -->
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <!-- <span class="badge">Available for work</span> -->
+      <h1>Your trusted partner for quality home improvement</h1>
+      <p>Refit delivers expert home improvements, creating beautiful and functional spaces with quality craftsmanship.</p>
+      <a href="#contact" class="btn">
+        Work with us
+        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M10 17l5-5-5-5v10z"/></svg>
+      </a>
+    </div>
+  </section>
+  <section class="services-container" id="services">
+    <div class="hero-content" style="margin-top: 6rem;">
+        <p style="text-align: center;color: #e1b261;">What We Do
+        </p>
+
+    <h1 style="text-align: left;">Our Commitment Quality Services in Construction and Interior Design
+    </h1>
+    </div>
+
+    <!-- tabs -->
+    <div class="tabs">
+      <button class="tab active" data-service="residential">
+        Residential Design
+      </button>
+      <button class="tab" data-service="commercial">
+        Commercial Design
+      </button>
+      <button class="tab" data-service="interior">
+        Interior Design
+      </button>
+      <button class="tab" data-service="landscape">
+        Landscape Design
+      </button>
+    </div>
+
+    <!-- content -->
+    <div class="service-content">
+      <img
+        id="service-img"
+        src="image-residential.jpg"
+        alt="Residential Design"
+      />
+      <div class="description">
+        <p id="service-desc">
+          Residential design focuses on creating comfortable, functional, and
+          beautiful living spaces tailored to homeowners’ needs—from single-family
+          homes to multigenerational dwellings.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- about -->
+  <section id="about" class="about-section">
+    <div class="about-content">
+      <div class="about-text">
+        <p style="color: #e1b261;">About us</p>
+        
+        <h2 style="color: white;">North Architecture</h2>
+        <p>
+          Welcome to North Architecture, where dreams take shape and spaces come alive.
+          Our story is one of passion, innovation, and a relentless pursuit of architectural
+          excellence. With a legacy spanning over two decades, we have crafted iconic
+          structures that redefine skylines and inspire awe.
+        </p>
+        <p>
+          From the inception of our firm, we have been driven by a singular vision:
+          to create spaces that not only fulfill functional requirements but also
+          ignite emotions. Our team of talented architects, designers, and engineers
+          collaborate seamlessly to bring forth unique designs that push the
+          boundaries of imagination.
+        </p>
+      </div>
+      <div class="about-image">
+        <img
+          src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=1350&q=80"
+          alt="North Architecture Building"
+        />
+      </div>
+    </div>
+
+   
+  </section>
+  <section id="how-it-works" class="how-section">
+    <div class="how-header">
+      <div class="label">How it works</div>
+      <h2 class="title">
+        How We Support 
+ <span class="highlight">You</span><br>
+      </h2>
+    </div>
+
+    <div class="how-content">
+      <div class="how-tabs">
+        <div class="how-tab" data-key="step1">
+          <h3>1.Strategy and Planning
+        </h3>
+          <p>Witness the transformative power of our strategic approach and meticulous planning as we craft tailored solutions to realize your vision and surpass your expectations.
+
+          </p>
+        </div>
+        <div class="how-tab" data-key="step2">
+          <h3>2.Concept Design
+        </h3>
+          <p>Explore the magic of our conceptual prowess as we craft designs that transcend the ordinary, breathing life into your vision and shaping spaces that resonate with your unique identity.
+
+          </p>
+        </div>
+        <div class="how-tab" data-key="step3">
+          <h3>3.Design Development
+        </h3>
+          <p>Experience the evolution of your vision into reality as we meticulously refine and enhance every detail, ensuring that our design development process brings your dreams to vibrant fruition.
+
+            </p>
+        </div>
+      </div>
+      <div class="how-image">
+        <img id="how-img" src="" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="projects-carousel" id="work">
+    <div class="hero-content" style="margin-top: 6rem;">
+        <p style="text-align: center;color: #e1b261;">What's On the Horizon
+
+        </p>
+
+    <h1 style="text-align: left;">Spotlight on Our Recent Projects
+
+    </h1>
+    </div>
+    <div class="carousel-track-container">
+      <div class="carousel-track">
+        <div class="carousel-slide">
+          <img src="https://plus.unsplash.com/premium_photo-1693966067310-4f58bb8d6341?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Project 1" />
+        </div>
+        <div class="carousel-slide">
+          <img src="https://plus.unsplash.com/premium_photo-1693966067310-4f58bb8d6341?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Project 2" />
+        </div>
+        <div class="carousel-slide">
+          <img src="https://plus.unsplash.com/premium_photo-1693966067310-4f58bb8d6341?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Project 3" />
+        </div>
+        <div class="carousel-slide">
+            <img src="https://plus.unsplash.com/premium_photo-1693966067310-4f58bb8d6341?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Project 2" />
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ss -->
+  <!-- <section class="hero-join" id="join">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <div class="pre-title">Join Us</div>
+      <h1>Initiate Your Experience with Us</h1>
+      <button class="cta-btn" data-target="#next">
+        <span>Get Started</span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M10 17l5-5-5-5v10z"/>
+        </svg>
+      </button>
+    </div>
+  </section> -->
+<!--  -->
+<section class="associated">
+    
+    <h2 class="associated-title">Associated With</h2>
+    <div class="carousel-container">
+      <div class="carousel-tracka">
+        <div class="carousel-slidea">
+          <img src="jaquar-logo.png" alt="Jaquar"/>
+        </div>
+        <div class="carousel-slidea">
+          <img src="supreme-logo.png" alt="Supreme"/>
+        </div>
+        <div class="carousel-slidea">
+          <img src="hafele-logo.png" alt="Häfele"/>
+        </div>
+        <div class="carousel-slidea">
+          <img src="acc-logo.png" alt="ACC"/>
+        </div>
+        <!-- Optionally duplicate first slides for smooth infinite loop -->
+        <div class="carousel-slidea">
+          <img src="jaquar-logo.png" alt="Jaquar"/>
+        </div>
+        <div class="carousel-slidea">
+          <img src="supreme-logo.png" alt="Supreme"/>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- conatc -->
+  <section id="contact" class="contact-section">
+    <div class="contact-header">
+      <span class="badge">Contact</span>
+      <h2>Get in touch</h2>
+      <p>
+        For any inquiries or to explore your vision further, we invite you to
+        contact our professional team using the details provided below.
+      </p>
+    </div>
+
+    <div class="contact-details">
+      <!-- Info Grid -->
+      <div class="info-grid">
+        <div class="label">Office</div>
+        <div class="value">150 Old Park Ln, London W1K 1QZ</div>
+
+        <div class="label">Email</div>
+        <div class="value">hello@refit.com</div>
+
+        <div class="label">Telephone</div>
+        <div class="value">07716 534984</div>
+      </div>
+
+      <!-- Divider -->
+      <hr class="info-divider"/>
+
+      <!-- Social Icons -->
+      <div class="socials">
+        <p>Follow us</p>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        <a href="#" aria-label="X (Twitter)"><i class="fab fa-x"></i></a>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="form-wrapper">
+      <form id="contactForm" novalidate>
+        <div class="form-group">
+          <label for="name">Name<span class="required">*</span></label>
+          <input type="text" id="name" name="name" placeholder="John Smith" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number<span class="required">*</span></label>
+          <input type="tel" id="phone" name="phone" placeholder="+44 7716 534984" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Your message…"></textarea>
+        </div>
+        <button type="submit" class="btn-submit">Send</button>
+      </form>
+    </div>
+  </section>
+  <!-- footer -->
+  <section class="footer-cta">
+    <div class="footer-grid">
+      <!-- Logo & CTA -->
+      <div class="col logo-col">
+        <img src="assets/images/logo.png" alt="United Group Logo" class="logo" />
+        <p class="tagline">Committed to be creative</p>
+        <h2 class="cta-title">Want to Create<br/>Something Great Together?</h2>
+        <button id="getStartedBtn" class="btn-cta">
+          <span>Get Started</span>
+          <svg viewBox="0 0 24 24"><path fill="currentColor" d="M10 17l5-5-5-5v10z"/></svg>
+        </button>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col contact-col">
+        <h3>Contact Info:</h3>
+        <div class="info-item">
+          <i class="fas fa-phone"></i>
+          <span>+91 81472 58065</span>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-envelope"></i>
+          <span>unitedgroup124@gmail.com</span>
+        </div>
+      </div>
+
+      <!-- Addresses -->
+      <div class="col address-col">
+        <h3>Our Address:</h3>
+        <div class="addr-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <strong>Head Office:</strong><br/>
+            United Home Decor Building,<br/>
+            Darbe Puttur, 574202 Mangalore.
+          </div>
+        </div>
+        <div class="addr-item">
+          <div>
+            <strong>Branch Address:</strong><br/>
+            75/2, Thanisandra Main Rd,<br/>
+            Balaji Layout, Chokkanahalli,<br/>
+            Bengaluru, Karnataka 560064
+          </div>
+        </div>
+        <p class="scan-label">Scan for Direction</p>
+        <img src="assets/images/qr.png" alt="QR code for directions" class="qr-code"/>
+      </div>
+
+      <!-- Associated & Socials -->
+      <div class="col assoc-col">
+        <h3>Associated With:</h3>
+        <img src="assets/images/bluetrack-logo.png" alt="Bluetrack Interiors" class="assoc-logo"/>
+        <h3>Social Media Links:</h3>
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <!-- add more if needed -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
