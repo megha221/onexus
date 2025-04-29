@@ -119,9 +119,9 @@ document.addEventListener("DOMContentLoaded", () => {
 //   process
 document.addEventListener("DOMContentLoaded", () => {
     const data = {
-      step1: "https://images.unsplash.com/photo-1560185127-6e4a2d09a04b?auto=format&fit=crop&w=800&q=80",
-      step2: "https://images.unsplash.com/photo-1572120360610-d971b9b99b8f?auto=format&fit=crop&w=800&q=80",
-      step3: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+      step1: "https://images.unsplash.com/photo-1608303588026-884930af2559?q=80&w=2606&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      step2: "https://images.unsplash.com/photo-1598368195835-91e67f80c9d7?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      step3: "https://images.unsplash.com/photo-1557813282-bcd50093e38f?q=80&w=2576&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     };
   
     const tabs   = document.querySelectorAll(".how-tab");
