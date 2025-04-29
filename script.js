@@ -215,13 +215,4 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
   
-      const message = form.message.value.trim();
-  
-      // Here you’d normally send the data to your server…
-      console.log({ name, phone, message });
-  
-      alert("Thanks! Your message has been sent.");
-      form.reset();
-    });
-  });
-  
+      const message = form.me
