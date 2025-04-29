@@ -30,27 +30,22 @@ document.addEventListener("DOMContentLoaded", () => {
       residential: {
         img: "https://images.unsplash.com/photo-1448301858776-07f780e9c9da?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         desc:
-          "Residential design focuses on creating comfortable, functional, and " +
-          "beautiful living spaces tailored to homeowners’ needs—from single-family " +
-          "homes to multigenerational dwellings."
+          "Where Imagination Crashes into Precision — Turning Flat Blueprints Into Living, Breathing Worlds."
       },
       commercial: {
         img: "https://plus.unsplash.com/premium_photo-1693966067310-4f58bb8d6341?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         desc:
-          "Commercial design enhances office, retail, and hospitality environments " +
-          "to maximize productivity, brand identity, and customer experience."
+          " The Ruthless Blueprint Where Innovation Meets Precision Building the Backbone for Architectural Giants."
       },
       interior: {
         img: "image-interior.jpg",
         desc:
-          "Interior design is the art and science of enhancing the interiors of spaces " +
-          "to create functional, aesthetically pleasing, and comfortable environments."
+          "The Relentless Craft of Planning, Designing, and Building — Where Safety, Quality, and Sustainability Aren’t Options, They’re the Standard."
       },
       landscape: {
         img: "https://plus.unsplash.com/premium_photo-1693966067310-4f58bb8d6341?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         desc:
-          "Landscape design integrates outdoor spaces with architecture, focusing on " +
-          "gardens, walkways, lighting, and sustainable planting schemes."
+          "Where Every Inch of Space, Every Texture, Every Color Is Used as a Weapon to Make You Experience Something You Cannot Explain — Only Feel."
       }
     };
   
