@@ -1,9 +1,9 @@
 // 1. Simple background carousel
 const hero = document.querySelector('.hero');
 const images = [
-  'https://images.unsplash.com/photo-1448301858776-07f780e9c9da?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  'https://plus.unsplash.com/premium_photo-1693966067310-4f58bb8d6341?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  'https://plus.unsplash.com/premium_photo-1693966067310-4f58bb8d6341?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+  './h1.avif',
+  'h2.avif',
+  'h3.avif'
   // ← replace with your actual URLs
 ];
 let idx = 0;
@@ -215,4 +215,13 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
   
-      const message = form.me
+      const message = form.message.value.trim();
+  
+      // Here you’d normally send the data to your server…
+      console.log({ name, phone, message });
+  
+      alert("Thanks! Your message has been sent.");
+      form.reset();
+    });
+  });
+  
