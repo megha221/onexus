@@ -28,22 +28,22 @@ document.addEventListener("DOMContentLoaded", () => {
     // 1. map each service to its image URL and description text
     const data = {
       residential: {
-        img: "https://images.unsplash.com/photo-1448301858776-07f780e9c9da?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        img: "./ar.avif",
         desc:
           "Where Imagination Crashes into Precision — Turning Flat Blueprints Into Living, Breathing Worlds."
       },
       commercial: {
-        img: "https://plus.unsplash.com/premium_photo-1693966067310-4f58bb8d6341?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        img: "pla.avif",
         desc:
           " The Ruthless Blueprint Where Innovation Meets Precision Building the Backbone for Architectural Giants."
       },
       interior: {
-        img: "image-interior.jpg",
+        img: "int.avif",
         desc:
           "The Relentless Craft of Planning, Designing, and Building — Where Safety, Quality, and Sustainability Aren’t Options, They’re the Standard."
       },
       landscape: {
-        img: "https://plus.unsplash.com/premium_photo-1693966067310-4f58bb8d6341?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        img: "cons.avif",
         desc:
           "Where Every Inch of Space, Every Texture, Every Color Is Used as a Weapon to Make You Experience Something You Cannot Explain — Only Feel."
       }
