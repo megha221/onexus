@@ -210,7 +210,7 @@
     display: block;
     border-radius: 1rem;
     object-fit: cover;
-    height: 600px;
+    height: 400px;
   }
   
   /* description overlay */
@@ -218,18 +218,19 @@
     position: absolute;
     top: 10%;
     left: 5%;
-    /* background: rgba(255, 255, 255, 0.9); */
+    background: rgba(255, 255, 255, 0.9);
     padding: 1.5rem;
     border-radius: 1rem;
     max-width: 40%;
     line-height: 1.5;
-    font-size: 1rem;
+    font-size: 1.4rem;
+    color: black;
   }
   /* mobile fallback: stack text below image */
   @media (max-width: 768px) {
     .description {
       position: static;
-      margin: -4rem auto 1.5rem;
+      /* margin: -4rem auto 1.5rem; */
       max-width: 100%;
     }
     .tab {
