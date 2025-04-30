@@ -934,10 +934,4 @@
     }
     .info-item,
     .addr-item {
-      justify-content: center;
-    }
-    .addr-item i {
-      margin-bottom: 0.5rem;
-    }
-  }
-    
+      justify-content: cen
