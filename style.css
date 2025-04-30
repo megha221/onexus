@@ -641,7 +641,6 @@
     width: 100%;
     display: block;
     object-fit: contain;
-    filter: brightness(0) invert(1); /* invert logos if needed */
   }
   /* gold bottom line */
   .carousel-slidea::after {
@@ -934,4 +933,10 @@
     }
     .info-item,
     .addr-item {
-      justify-content: cen
+      justify-content: center;
+    }
+    .addr-item i {
+      margin-bottom: 0.5rem;
+    }
+  }
+    
