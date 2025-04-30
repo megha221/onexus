@@ -267,6 +267,7 @@
     display: block;
     border-radius: 0.75rem;
     object-fit: cover;
+    height: 500px;
   }
   
   /* Tablet: 2 slides */
@@ -281,6 +282,10 @@
     .carousel-slide {
       flex: 0 0 100%;
     }
+    .carousel-slide img {
+      height: 300px;
+    }
+
   }
   :root {
     --gold: #D4AF37;

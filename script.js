@@ -119,9 +119,9 @@ document.addEventListener("DOMContentLoaded", () => {
 //   process
 document.addEventListener("DOMContentLoaded", () => {
     const data = {
-      step1: "https://images.unsplash.com/photo-1608303588026-884930af2559?q=80&w=2606&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      step2: "https://images.unsplash.com/photo-1598368195835-91e67f80c9d7?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      step3: "https://images.unsplash.com/photo-1557813282-bcd50093e38f?q=80&w=2576&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      step1: "./p1.avif",
+      step2: "./p2.avif",
+      step3: "./p3.avif"
     };
   
     const tabs   = document.querySelectorAll(".how-tab");
