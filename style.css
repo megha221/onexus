@@ -1018,6 +1018,7 @@
     font-size: 0.95rem;
     line-height: 1.6;
     color: #ccc;
+    text-align: left;
   }
   
   .service-card a {
@@ -1073,7 +1074,7 @@
 .service-card a {
   display: inline-block;
   margin-bottom: 15px;
-  color: #007BFF;
+  color: #e1b261;
   text-decoration: none;
   font-weight: bold;
 }
@@ -1088,4 +1089,19 @@
   .service-card {
     flex: 1 1 100%;
   }
+}
+.how-section {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Optional: tighten spacing inside */
+.how-content {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+/* Remove top margin from next section if needed */
+section + section {
+  margin-top: 0;
 }
