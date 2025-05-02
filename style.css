@@ -1147,4 +1147,56 @@ section + section {
   0% {
     transform: translateX(0);
   }
-  
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.carousel-track-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 1000%; /* 10 slides, so 10 * 100% */
+}
+
+.carousel-slide {
+  flex: 0 0 10%; /* 100% / 10 images */
+  max-width: 10%;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.carousel-radio-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 10px;
+}
+
+.carousel-radio-buttons input[type="radio"] {
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #e1b261;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.carousel-radio-buttons input[type="radio"]:checked {
+  background-color: #e1b261;
+}
+.logo img {
+  max-width:100px;
+  height: auto;
+  display: block;
+}
