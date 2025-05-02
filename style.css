@@ -243,7 +243,7 @@
   .projects-carousel {
     max-width: 1200px;
     /* margin: 2rem auto; */
-    margin: -23rem auto;
+    /* margin: -23rem auto; */
     padding: 0 1rem;
   }
   
@@ -278,7 +278,7 @@
       flex: 0 0 50%;
     }
     .projects-carousel {
-      margin: 3rem;
+      /* margin: 3rem; */
     }
   }
   
@@ -400,7 +400,7 @@
   .how-section {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 4rem 1rem;
+    /* padding: 4rem 1rem; */
   }
   
   .how-header .label {
@@ -475,12 +475,16 @@
     flex: 1.2;
   }
   .how-image img {
-    width: 100%;
+    width: 500px;
     height: 50%;
     border-radius: 1rem;
-    object-fit: cover;
+    object-fit: fill;
     display: block;
+    position: absolute;     /* allow positioning */
+    right: 20px;
   }
+  
+  
   
   /* responsive */
   @media (max-width: 768px) {
@@ -1108,4 +1112,38 @@
 /* Remove top margin from next section if needed */
 section + section {
   margin-top: 0;
+}
+.carousel-track-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 20px;
+  animation: scroll 40s linear infinite;
+  width: max-content;
+}
+
+.carousel-slide {
+  flex: 0 0 auto;
+}
+
+.carousel-slide img {
+  height: 400px;
+  width: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Animation Keyframes */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }

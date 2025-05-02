@@ -119,9 +119,9 @@ document.addEventListener("DOMContentLoaded", () => {
 //   process
 document.addEventListener("DOMContentLoaded", () => {
     const data = {
-      step1: "./p1.avif",
-      step2: "./p2.avif",
-      step3: "./p3.avif"
+      step1: "./planning-svgrepo-com.svg",
+      step2: "./design-svgrepo-com.svg",
+      step3: "./development-svgrepo-com.svg"
     };
   
     const tabs   = document.querySelectorAll(".how-tab");
