@@ -220,17 +220,4 @@ document.addEventListener("DOMContentLoaded", () => {
       // Here you’d normally send the data to your server…
       console.log({ name, phone, message });
   
-      alert("Thanks! Your message has been sent.");
-      form.reset();
-    });
-  });
-  
-
-  const radios = document.querySelectorAll('.carousel-radio-buttons input[type="radio"]');
-  const track = document.querySelector('.carousel-track');
-
-  radios.forEach((radio, i) => {
-    radio.addEventListener('change', () => {
-      track.style.transform = `translateX(-${i * 100}%)`;
-    });
-  });
+      alert("Thanks! Your messag
