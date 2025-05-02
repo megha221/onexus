@@ -225,3 +225,12 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
   
+
+  const radios = document.querySelectorAll('.carousel-radio-buttons input[type="radio"]');
+  const track = document.querySelector('.carousel-track');
+
+  radios.forEach((radio, i) => {
+    radio.addEventListener('change', () => {
+      track.style.transform = `translateX(-${i * 100}%)`;
+    });
+  });

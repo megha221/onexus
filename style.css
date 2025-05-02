@@ -480,8 +480,8 @@
     border-radius: 1rem;
     object-fit: fill;
     display: block;
-    position: absolute;     /* allow positioning */
-    right: 20px;
+     position: absolute;     /* allow positioning */
+  right: 20px;
   }
   
   
@@ -1097,6 +1097,10 @@
   .service-card {
     flex: 1 1 100%;
   }
+  .how-image img {
+    width: 000px;
+    
+  }
 }
 .how-section {
   margin-bottom: 0;
@@ -1143,7 +1147,4 @@ section + section {
   0% {
     transform: translateX(0);
   }
-  100% {
-    transform: translateX(-50%);
-  }
-}
+  
