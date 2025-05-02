@@ -2,8 +2,8 @@
 const hero = document.querySelector('.hero');
 const images = [
   './h1.avif',
-  'h2.avif',
-  'h3.avif'
+  './h1.avif',
+  './h1.avif'
   // ← replace with your actual URLs
 ];
 let idx = 0;
