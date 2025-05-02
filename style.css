@@ -301,7 +301,7 @@
  
   .about-section {
     position: relative;
-    background: var(--dark);
+    /* background: var(--dark); */
     color: var(--light);
     padding: 4rem 1rem;
   }
@@ -313,6 +313,15 @@
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     align-items: center;
+  }
+  .aabout-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* display: grid; */
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
   }
   
   /* Text block */
