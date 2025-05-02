@@ -277,6 +277,9 @@
     .carousel-slide {
       flex: 0 0 50%;
     }
+    .projects-carousel {
+      margin: 3rem;
+    }
   }
   
   /* Mobile: 1 slide */
