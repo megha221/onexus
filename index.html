@@ -1,446 +1,1308 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Onexus – Construction & Renovation</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Home | United group</title>
+    <!-- /SEO Ultimate -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon.ico">
+    <link rel="manifest" href="assets/images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Latest compiled and minified CSS -->
+    <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/js/bootstrap.min.js">
+    <!-- Font Awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- StyleSheet link CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/custom-style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/special-classes.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/responsive.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-  <!-- 2) Load Manrope -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet"
-  />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16783256293"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'AW-16783256293');
+    </script>
 </head>
+
+
+
+
+<style type="text/css">
+    .con {
+        max-width: 350px;
+        width: 120%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    #contact input[type="text"],
+    #contact input[type="email"],
+    #contact input[type="tel"],
+    #contact input[type="url"],
+    #contact textarea,
+    #contact button[type="submit"] {
+        font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+    }
+
+    #contact {
+        background: #ffffff;
+        padding: 20px;
+        margin: 10px 0;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+        border-radius: 10px;
+    }
+
+    #contact h3 {
+        display: block;
+        font-size: 30px;
+        font-weight: 300;
+        margin-bottom: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    #contact h4 {
+        margin: 5px 0 15px;
+        display: block;
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    fieldset {
+        border: medium none !important;
+        margin: 0 0 5px;
+        min-width: 100%;
+        padding: 0;
+        width: 100%;
+    }
+
+    #contact input[type="text"],
+    #contact input[type="email"],
+    #contact input[type="tel"],
+    #contact input[type="url"],
+    #contact textarea {
+        width: 100%;
+        border: 1px solid #ccc;
+        background: #FFF;
+        margin: 0 0 5px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    #contact input[type="text"]:hover,
+    #contact input[type="email"]:hover,
+    #contact input[type="tel"]:hover,
+    #contact input[type="url"]:hover,
+    #contact textarea:hover {
+        -webkit-transition: border-color 0.3s ease-in-out;
+        -moz-transition: border-color 0.3s ease-in-out;
+        transition: border-color 0.3s ease-in-out;
+        border: 1px solid #aaa;
+    }
+
+    #contact textarea {
+        height: 100px;
+        max-width: 100%;
+        resize: none;
+    }
+
+    #contact button[type="submit"] {
+        cursor: pointer;
+        width: 100%;
+        padding-left: 2rem;
+        border: none;
+        background: #e1b261;
+        color: #FFF;
+        margin: 0 0 5px;
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+
+    #contact button[type="submit"]:hover {
+        background: #e1b261;
+        -webkit-transition: background 0.3s ease-in-out;
+        -moz-transition: background 0.3s ease-in-out;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    #contact button[type="submit"]:active {
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
+    #contact input:focus,
+    #contact textarea:focus {
+        outline: 0;
+        border: 1px solid #aaa;
+    }
+
+    ::-webkit-input-placeholder {
+        color: #888;
+    }
+
+    :-moz-placeholder {
+        color: #888;
+    }
+
+    ::-moz-placeholder {
+        color: #888;
+    }
+
+    :-ms-input-placeholder {
+        color: #888;
+    }
+
+    .float1 {
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        bottom: 200px;
+        /* left: 25px; */
+        right: 20px;
+        z-index: 100;
+        color: #FFF;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 2px 2px 3px #9990;
+    }
+
+    .imglogo {
+        max-width: 75%;
+        padding-left: 5rem;
+        padding-bottom: 20px
+    }
+</style>
+
+
+<!-- <section id="perfectapopup" style="z-index: 100009; background-color: rgba(0,0,0,0.8); position: fixed; width: 100%; display: none; padding: 0px; height: 100vh;">
+
+
+    <div class="con">
+        <form id="contact" action="#" method="post" onsubmit="return validateForm();">
+            <img class="imglogo" src="assets/images/logo.webp">
+
+            <fieldset>
+                <input class="form-control" type="text" name="name" placeholder="*Type your Name" oninput="this.value = this.value.replace(/[^a-z. A-Z]/g, '').replace(/(\..*)\./g, '$1');" required>
+            </fieldset>
+
+            <fieldset>
+                <input class="form-control" type="email" name="email" placeholder="*Type your Email" required>
+            </fieldset>
+            <fieldset>
+                <input type="tel" name="phone" class="form-control" id="phone" required placeholder="*Type your Phone Number" aria-label="Phone" value="" pattern="\d{10}" title="Please enter a 10-digit phone number" oninput="this.value = this.value.replace(/\D/g, '').substr(0, 10);"
+                    required>
+            </fieldset>
+            <fieldset>
+                <fieldset>
+                    <input class="form-control" type="text" name="subject" placeholder="*Type your Subject" oninput="this.value = this.value.replace(/[^a-z. A-Z]/g, '').replace(/(\..*)\./g, '$1');" required>
+                </fieldset>
+                <textarea placeholder="*Type your Enquiry here...." name="message" id="contact-message'" tabindex="5" required></textarea>
+            </fieldset>
+
+
+            <fieldset>
+                <button name="submit_flag" type="submit" id="contact-submit" data-submit="...Sending"><i class="fa fa-send-o" style="color: white;"></i>  Submit</button>
+            </fieldset><a onclick="exitpopup()" style="padding: 9px 14px; position: absolute; top: 10px; right: 15px; text-decoration: none; background-color: #fff; color: #661561; border-radius: 5px; text-align: center; cursor: pointer;">&#10006;</a>
+
+        </form>
+
+    </div>
+
+
+
+
+
+</section> -->
+
+<!-- <a onclick="openForm()"   class="float1">
+    <img src="assets/img/sidebar.png" width="65px">
+     
+</a> -->
+<script>
+    function sendMail() {
+        var name = document.getElementById('name');
+        var phone = document.getElementById('phone');
+        var message = document.getElementById('contact-message');
+        if (name.value == "" || phone.value == "") {
+            alert('Enter Name and Phone Number');
+            return false;
+        } else alert('Thanks for your Enquiry! We will contact you soon.');
+    }
+</script>
+<script type="text/javascript">
+    function exitpopup() {
+        document.getElementById('perfectapopup').style.display = "none";
+
+
+    }
+
+    function openForm() {
+        document.getElementById("perfectapopup").style.display = "block";
+    }
+</script>
+
+<script type="text/javascript">
+    // Function to close the popup
+    function exitpopup() {
+        document.getElementById('perfectapopup').style.display = "none";
+    }
+
+    // Function to open the popup
+    function openForm() {
+        document.getElementById("perfectapopup").style.display = "block";
+    }
+
+    // Automatically open the popup on page load
+    window.onload = function() {
+        openForm();
+    };
+</script>
+
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="logo">
-        <img src="lo.png" alt="onexus logo" />
-      </div>
-      
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
 
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#work">Our work</a></li>
-        <!-- <li><a href="#faqs">FAQs</a></li> -->
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <div class="hamburger">
-        <span></span><span></span><span></span>
-      </div>
-    </nav>
-  </header>
+    <script>
+        gtag('config', 'AW-16783256293/yuDLCKuLs-4ZEOXV8MI-', {
+            'phone_conversion_number': '+91 81472 58065'
+        });
+    </script>
 
-  <section class="hero" id="home">
-    <div class="hero-content">
-      <!-- <span class="badge">Available for work</span> -->
-      <h1>Building Dreams, Brick by Brick</h1>
-      <p>From concept to completion, we turn visions into architectural marvels.</p>
-      <a href="#contact" class="btn">
-        Contact Us
-        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M10 17l5-5-5-5v10z"/></svg>
-      </a>
+    <!-- Header  -->
+    <div class="banner_outer">
+
+        <div class="sub-banner">
+
+            <header class="header">
+                <div class="main-header">
+                    <div class="container-fluid">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <a class="navbar-brand" href="./">
+                                <figure class="mb-0 banner-logo"><img src="./onelogo.png" alt="" class="img-fluid"></figure>
+                            </a>
+                            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="./">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about">About Us</a>
+                                    </li>
+                                    <li class="nav-space nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle dropdown-color navbar-text-color" href="#" id="navbarDropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Our Services </a>
+                                        <div class="dropdown-menu drop-down-content">
+                                            <ul class="list-unstyled drop-down-pages">
+                                                <li class="nav-item"><a class="dropdown-item nav-link" href="architectural-3d-design">Architectural 3D design</a></li>
+                                                <li class="nav-item"><a class="dropdown-item nav-link" href="engineer-plan">Engineer plan</a></li>
+                                                <li class="nav-item"><a class="dropdown-item nav-link" href="constuction">Construction</a></li>
+                                                <li class="nav-item"><a class="dropdown-item nav-link" href="interiors">Interiors</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="packages">Packages</a>
+                                    </li>
+
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="projects">Projects</a>
+                                    </li>
+
+                                    <li class="nav-space nav-item">
+                                        <div class="contact-button">
+                                            <a class="contact_us text-decoration-none" href="contact">Contact Us</a>
+                                            <a class="image-button text-decoration-none" href="contact">
+                                                <!-- <figure class="arrow mb-0">
+                                                    <img style="max-width: 50%;" src="./assets/images/arrow.png" alt="" class="img-fluid">
+                                                </figure> -->
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <div class="social-icons position-relative">
+                <figure class="line">
+                    <img src="./assets/images/line-image.png" alt="" class="img-fluid">
+                </figure>
+                <ul class="list-unstyled mb-0 position-absolute">
+                    <li><a href="https://instagram.com/unitedd_empire" class="text-decoration-none" target="_blank"><i class="fa-brands fa-instagram social-networks"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <section class="banner-section">
+            <figure class="banner-backgroundimage mb-0 shadow">
+                <img src="assets/images/interior/5.jpg" alt="" class="img-fluid">
+            </figure>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-8 col-md-12 col-sm-12 col-12">
+                        <div class="owl-carousel owl-theme">
+
+                            <div class="item">
+                                <div class="banner_content">
+                                    <div class="content">
+                                        <h1>Building Dreams, Brick by Brick</h1>
+                                        <p class="text-white">From concept to completion, we turn visions into architectural marvels.</p>
+                                        <div class="discover-button">
+                                            <a class="discover_more text-decoration-none" href="./about">Discover More</a>
+                                            <a class="image-button text-decoration-none" href="./about">
+                                                <figure class="arrow mb-0 recentwork-image">
+                                                    <img src="./assets/images/arrow.png" alt="" class="img-fluid">
+                                                </figure>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="banner_content">
+                                    <div class="content">
+                                        <h1>Where Design Meets Functionality</h1>
+                                        <p class="text-white">Blending aesthetics and practicality to create spaces that inspire and endure.</p>
+                                        <div class="discover-button">
+                                            <a class="discover_more text-decoration-none" href="./about">Discover More</a>
+                                            <a class="image-button text-decoration-none" href="./about">
+                                                <figure class="arrow mb-0 recentwork-image">
+                                                    <img src="./assets/images/arrow.png" alt="" class="img-fluid">
+                                                </figure>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="banner_content">
+                                    <div class="content">
+                                        <h1>Crafting Timeless Interiors</h1>
+                                        <p class="text-white">Transforming spaces into personalized sanctuaries with elegance and innovation.</p>
+                                        <div class="discover-button">
+                                            <a class="discover_more text-decoration-none" href="./about">Discover More</a>
+                                            <a class="image-button text-decoration-none" href="./about">
+                                                <figure class="arrow mb-0 recentwork-image">
+                                                    <img src="./assets/images/arrow.png" alt="" class="img-fluid">
+                                                </figure>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-4 col-md-12 col-sm-12 col-12 d-lg-block d-none">
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
-  </section>
-  <!-- <section class="services-container" id="services">
-    <div class="hero-content" style="margin-top: 6rem;">
-        <p style="text-align: center;color: #e1b261;">What We Do
-        </p>
+    <!-- Services -->
+    <section class="service-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="service_content" data-aos="fade-right">
+                        <h6>What We Do</h6>
+                        <h2>We’re Committed to Building and Designing Spaces with Relentless Quality and Precision.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="box-content">
+                        <div class="upper_portion">
+                            <figure class="image mb-0 shadow">
+                                <img src="assets/images/interior/3.jpg" style="height: 167px;" class="article_img" width="100%" alt="">
+                            </figure>
+                            <div class="image_content">
+                                <figure class="mb-0 service-icon">
+                                    <img src="assets/images/favicon/favicon.ico" alt="" class="img-fluid">
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="lower_portion_wrapper">
+                            <div class="lower_portion">
+                                <h5 class="text-white">Architectural 3D design</h5>
+                                <p class="text-size-16">Where Imagination Crashes into Precision — Turning Flat Blueprints Into Living, Breathing Worlds.</p>
+                                <a class="read_more text-decoration-none" href="architectural-3d-design.php">Read More
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="top-space">
+                        <div class="box-content">
+                            <div class="upper_portion">
+                                <figure class="image mb-0 shadow">
+                                    <img src="assets/images/img/img5.webp" style="height: 167px;" class="article_img" width="100%" alt="">
+                                </figure>
+                                <div class="image_content">
+                                    <figure class="mb-0 service-icon">
+                                        <img style="max-width: 72%;" src="./assets/images/service-icon1.png" alt="" class="img-fluid">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="lower_portion_wrapper">
+                                <div class="lower_portion">
+                                    <h5 class="text-white">An Engineer’s Plan</h5>
+                                    <p class="text-size-16"> The Ruthless Blueprint Where Innovation Meets Precision — Building the Backbone for Architectural Giants.</p>
+                                    <a class="read_more text-decoration-none" href="engineer-plan.php">Read More
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="top-space">
+                        <div class="box-content">
+                            <div class="upper_portion">
+                                <figure class="image mb-0 shadow">
+                                    <img src="assets/images/22.jpg" style="height: 167px;" class="article_img" width="100%" alt="">
+                                </figure>
+                                <div class="image_content">
+                                    <figure class="mb-0 service-icon">
+                                        <img style="max-width:80%;" src="assets/images/shape.png" alt="" class="img-fluid">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="lower_portion_wrapper">
+                                <div class="lower_portion">
+                                    <h5 class="text-white">Construction </h5>
+                                    <p class="text-size-16">The Relentless Craft of Planning, Designing, and Building — Where Safety, Quality, and Sustainability Aren’t Options, They’re the Standard.</p>
+                                    <a class="read_more text-decoration-none" href="constuction">Read More
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="box-content">
+                        <div class="upper_portion">
+                            <figure class="image mb-0 shadow">
+                                <img src="assets/images/interior/21.webp" style="height: 167px;" class="article_img" width="100%" alt="">
+                            </figure>
+                            <div class="image_content">
+                                <figure class="mb-0 service-icon">
+                                    <img style="max-width: 72%;" src="./assets/images/service-icon3.png" alt="" class="img-fluid">
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="lower_portion_wrapper">
+                            <div class="lower_portion">
+                                <h5 class="text-white">Interiors</h5>
+                                <p class="text-size-16">Where Every Inch of Space, Every Texture, Every Color Is Used as a Weapon to Make You Experience Something You Cannot Explain — Only Feel.</p>
+                                <a class="read_more text-decoration-none" href="interiors.php">Read More
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    <h2 style="text-align: center;">We’re Committed to Building and Designing Spaces with Relentless Quality and
-      Precision.
-    </h2>
-    </div>
-  </section> -->
-  <section  class="about-section">
-    <div class="aabout-content">
-      <div class="about-text">
-        <p style="color: #e1b261;">What We Do</p>
-        
-        <h2 style="color: white;">We’re Committed to Building and Designing Spaces with Relentless Quality and
-          Precision.</h2>
-     
-      </div>
-     
-    </div>
-
-   
-  </section>
-
-    <section class="services-section">
-     
-      <div class="card-container">
-    
-        <!-- Card 1 -->
-        <div class="service-card">
-          <img src="pr1.jpg" alt="Architectural Design">
-          <!-- <div class="icon-circle">
-            <img src="https://img.icons8.com/ios-filled/50/ffffff/3d.png" alt="3D Icon" />
-          </div> -->
-          <h3>Architectural 3D design</h3>
-          <p>Architectural 3D design: the virtual canvas where imagination meets precision, crafting immersive visualizations that bring blueprints to vibrant life.</p>
-          <a href="#">Read More →</a>
+            </div>
+         
         </div>
-    
-        <!-- Card 2 -->
-        <div class="service-card">
-          <img src="pr2.webp" alt="Engineer Plan">
-          <!-- <div class="icon-circle">
-            <img src="https://img.icons8.com/ios-filled/50/ffffff/blueprint.png" alt="Blueprint Icon" />
-          </div> -->
-          <h3>Engineer plan</h3>
-          <p>An engineer's plan: the meticulous blueprint that orchestrates innovation and functionality, laying the groundwork for architectural marvels to rise.</p>
-          <a href="#">Read More →</a>
-        </div>
-    
-        <!-- Card 3 -->
-        <div class="service-card">
-          <img src="pr3.jpg" alt="Construction">
-          <!-- <div class="icon-circle">
-            <img src="https://img.icons8.com/ios-filled/50/ffffff/crane.png" alt="Construction Icon" />
-          </div> -->
-          <h3>Construction</h3>
-          <p>Construction involves planning, designing, and building infrastructure or structures, ensuring safety, quality, and sustainability throughout the entire process.</p>
-          <a href="#">Read More →</a>
-        </div>
-    
-        <!-- Card 4 -->
-        <div class="service-card">
-          <img src="pr4.webp" alt="Interiors">
-          <!-- <div class="icon-circle">
-            <img src="https://img.icons8.com/ios-filled/50/ffffff/sofa.png" alt="Interior Icon" />
-          </div> -->
-          <h3>Interiors</h3>
-          <p>Interiors: the curated symphony of textures, colors, and furnishings harmonizing to create spaces that embrace and inspire.</p>
-          <a href="#">Read More →</a>
-        </div>
-    
-      </div>
     </section>
-    
-   
- 
-  <!-- about -->
-  <section id="about" class="about-section">
-    <div class="about-content">
-      <div class="about-text">
-        <p style="color: #e1b261;">About us</p>
-        
-        <h2 style="color: white;">Top Construction Companies Tailored to Meet Your Vision</h2>
-        <p>
-          With our unmatched craftsmanship and unshakeable quality, we at Onexus are
-          determined to turn your dreams of construction into a reality. Our passion for
-          innovation and creativity drives us to deliver each project with precision and quality,
-          ensuring personalized solutions that exactly fit your unique vision.
-        </p>
-        <p>
-          We collaborate closely with you to turn your ideas into quantifiable results, backed by
-          a team of experts in the field and a dedication to great workmanship. We prioritize
-          your needs from the start to the finish, delivering projects that not only meet but
-          exceed your expectations.
-        </p>
-        <p>
-          At Onexus, we pride ourselves on building your dreams with integrity and meticulous
-attention to detail because we believe that every building has a story to tell. Feel the
-difference of having a partner who cares as much about your vision as you do. Let's
-build spaces that inspire and last together.
-        </p>
-      </div>
-      <div class="about-image">
-        <img
-          src="res.avif"
-          alt="North Architecture Building"
-        />
-      </div>
+    <!-- About us -->
+    <section class="about-section">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 order-md-1 order-2">
+                    <div class="about_wrapper">
+                        <figure class="about-image1 mb-0 shadow" data-aos="fade-up">
+                            <img src="assets/images/3d-rendering-house-model.webp" alt="" class="img-fluid">
+                        </figure>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 order-md-2 order-3">
+                    <div class="about_content" data-aos="fade-right">
+                        <h6>About Us</h6>
+                        <h2>Top Construction Companies Tailored to Meet Your Vision</h2>
+                        <p>With our unmatched craftsmanship and unshakeable quality, we at Onexus are determined to turn your dreams of construction into a reality. Our passion for innovation and creativity drives us to deliver each project with precision and quality, ensuring personalized solutions that exactly fit your unique vision.</p>
+                        <p>We collaborate closely with you to turn your ideas into quantifiable results, backed by a team of experts in the field and a dedication to great workmanship. We prioritize your needs from the start to the finish, delivering projects that not only meet but exceed your expectations.</p>
+                        <p>At Onexus, we pride ourselves on building your dreams with integrity and meticulous attention to detail because we believe that every building has a story to tell. Feel the difference of having a partner who cares as much about your vision as you do. Let's build spaces that inspire and last together.</p>
+                        <div class="about-button">
+                            <a class="read_more text-decoration-none" href="./about">Read More</a>
+                            <a class="image-button text-decoration-none" href="./about">
+                                <figure class="arrow mb-0">
+                                    <img style="max-width: 50%;" src="./assets/images/arrow.png" alt="" class="img-fluid">
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 order-md-3 order-2 pt-5">
+                    <div class="about_wrapper shadow">
+                        <figure class="about-image2 mb-0 pt-5 shadow" data-aos="fade-up">
+                            <img src="assets/images/3d-electric-car-building.webp" alt="" class="img-fluid">
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Process -->
+
+
+    <section class="process-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="process_content aos-init aos-animate" data-aos="fade-up">
+                        <h6>Our Process</h6>
+                        <h2>How We Support You</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="box-content">
+                        <figure class="icon mb-0">
+                            <img src="./assets/images/process-icon1.png" class="img-fluid" alt="">
+                        </figure>
+                        <span>01</span>
+                        <h5 class="text-white">Strategy and Planning</h5>
+                        <p class="text-size-18 mb-0">Witness the transformative power of our strategic approach and meticulous planning as we craft tailored solutions to realize your vision and surpass your expectations.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="box-content">
+                        <figure class="icon mb-0">
+                            <img src="./assets/images/process-icon2.png" class="img-fluid" alt="">
+                        </figure>
+                        <span>02</span>
+                        <h5 class="text-white">Concept Design</h5>
+                        <p class="text-size-18 mb-0">Explore the magic of our conceptual prowess as we craft designs that transcend the ordinary, breathing life into your vision and shaping spaces that resonate with your unique identity.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="box-content">
+                        <figure class="icon mb-0">
+                            <img src="./assets/images/process-icon3.png" class="img-fluid" alt="">
+                        </figure>
+                        <span>03</span>
+                        <h5 class="text-white">Design Development</h5>
+                        <p class="text-size-18 mb-0">Experience the evolution of your vision into reality as we meticulously refine and enhance every detail, ensuring that our design development process brings your dreams to vibrant fruition.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Successful work -->
+    <!-- Recent work -->
+    <section class="recentwork-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="recentwork_content" data-aos="fade-up">
+                        <h6>What's On the Horizon</h6>
+                        <h2>Spotlight on Our Recent Projects</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="recentwork-carousel owl-carousel">
+                <div class="item">
+                    <div class="image">
+                        <figure class="recentwork-image mb-0 shadow">
+                            <img src="assets/images/interior/42.webp" class="img-fluid" alt="">
+                        </figure>
+                        <!-- <div class="box-content">
+                        <div class="content">
+                            <span class="text-white text-size-16">Interior – Luxury Living</span>
+                            <h4 class="text-white">Kawa - Glamorous Penthouse</h4>
+                            <a class="text-decoration-none" href="./portfolio.php">
+                                <figure class="arrow mb-0">
+                                    <img src="./assets/images/arrow.png" alt="" class="img-fluid">
+                                </figure>
+                            </a>
+                        </div>
+                    </div> -->
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <figure class="recentwork-image mb-0 shadow">
+                            <img src="assets/images/interior/5.jpg" class="img-fluid" alt="">
+                        </figure>
+                        <!-- <div class="box-content">
+                        <div class="content">
+                            <span class="text-white text-size-16">Interior – Luxury Living</span>
+                            <h4 class="text-white">Kawa - Glamorous Penthouse</h4>
+                            <a class="text-decoration-none" href="./portfolio.php">
+                                <figure class="arrow mb-0">
+                                    <img src="./assets/images/arrow.png" alt="" class="img-fluid">
+                                </figure>
+                            </a>
+                        </div>
+                    </div> -->
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <figure class="recentwork-image mb-0 shadow">
+                            <img src="assets/images/interior/1.jpg" class="img-fluid" alt="">
+                        </figure>
+                        <!-- <div class="box-content">
+                        <div class="content">
+                            <span class="text-white text-size-16">Interior – Luxury Living</span>
+                            <h4 class="text-white">Kawa - Glamorous Penthouse</h4>
+                            <a class="text-decoration-none" href="./portfolio.php">
+                                <figure class="arrow mb-0">
+                                    <img src="./assets/images/arrow.png" alt="" class="img-fluid">
+                                </figure>
+                            </a>
+                        </div>
+                    </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial -->
+    <!-- <section class="testimonial-section">
+    <figure class="light-image mb-0">
+        <img src="./assets/images/top-lightimage.png" alt="" class="img-fluid">
+    </figure>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="testimonial_content" data-aos="fade-right">
+                    <h6>Testimonials</h6>
+                    <h2>Trusted By Over 30,000 Worldwide Customers Since 1998</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="box">
+                        <div class="image">
+                            <figure class="testimonial-image mb-0">
+                                <img src="./assets/images/testimonial-image1.png" class="img-fluid" alt="">
+                            </figure>
+                            <figure class="quote-icon mb-0">
+                                <img src="./assets/images/quote-icon.png" class="img-fluid" alt="">
+                            </figure>
+                        </div>                    
+                        <div class="box-content">
+                            <p class="text-size-18">Duis aute irure dolor in reprehender in voluptate velit esse
+                                cillum dolore fugiat nulla pariatur excepteur sintoa caecat cupidata proident...</p>
+                            <ul class="list-unstyled mb-0">
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                            </ul>
+                            <div class="lower-portion">
+                                <span class="text-white text-size-16">Kevin Andrew</span>
+                                <span class="text-size-14">Happy Customer</span>
+                                <figure class="quote-image mb-0">
+                                    <img src="./assets/images/quote-image.png" class="img-fluid" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="image">
+                            <figure class="testimonial-image mb-0">
+                                <img src="./assets/images/testimonial-image2.png" class="img-fluid" alt="">
+                            </figure>
+                            <figure class="quote-icon mb-0">
+                                <img src="./assets/images/quote-icon.png" class="img-fluid" alt="">
+                            </figure>
+                        </div>                    
+                        <div class="box-content">
+                            <p class="text-size-18">Duis aute irure dolor in reprehender in voluptate velit esse
+                                cillum dolore fugiat nulla pariatur excepteur sintoa caecat cupidata proident...</p>
+                            <ul class="list-unstyled mb-0">
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                            </ul>
+                            <div class="lower-portion">
+                                <span class="text-white text-size-16">Alina James</span>
+                                <span class="text-size-14">Happy Customer</span>
+                                <figure class="quote-image mb-0">
+                                    <img src="./assets/images/quote-image.png" class="img-fluid" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="image">
+                            <figure class="testimonial-image mb-0">
+                                <img src="./assets/images/testimonial-image1.png" class="img-fluid" alt="">
+                            </figure>
+                            <figure class="quote-icon mb-0">
+                                <img src="./assets/images/quote-icon.png" class="img-fluid" alt="">
+                            </figure>
+                        </div>                    
+                        <div class="box-content">
+                            <p class="text-size-18">Duis aute irure dolor in reprehender in voluptate velit esse
+                                cillum dolore fugiat nulla pariatur excepteur sintoa caecat cupidata proident...</p>
+                            <ul class="list-unstyled mb-0">
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                            </ul>
+                            <div class="lower-portion">
+                                <span class="text-white text-size-16">Kevin Andrew</span>
+                                <span class="text-size-14">Happy Customer</span>
+                                <figure class="quote-image mb-0">
+                                    <img src="./assets/images/quote-image.png" class="img-fluid" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="image">
+                            <figure class="testimonial-image mb-0">
+                                <img src="./assets/images/testimonial-image2.png" class="img-fluid" alt="">
+                            </figure>
+                            <figure class="quote-icon mb-0">
+                                <img src="./assets/images/quote-icon.png" class="img-fluid" alt="">
+                            </figure>
+                        </div>                    
+                        <div class="box-content">
+                            <p class="text-size-18">Duis aute irure dolor in reprehender in voluptate velit esse
+                                cillum dolore fugiat nulla pariatur excepteur sintoa caecat cupidata proident...</p>
+                            <ul class="list-unstyled mb-0">
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                            </ul>
+                            <div class="lower-portion">
+                                <span class="text-white text-size-16">Alina James</span>
+                                <span class="text-size-14">Happy Customer</span>
+                                <figure class="quote-image mb-0">
+                                    <img src="./assets/images/quote-image.png" class="img-fluid" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="image">
+                            <figure class="testimonial-image mb-0">
+                                <img src="./assets/images/testimonial-image1.png" class="img-fluid" alt="">
+                            </figure>
+                            <figure class="quote-icon mb-0">
+                                <img src="./assets/images/quote-icon.png" class="img-fluid" alt="">
+                            </figure>
+                        </div>                    
+                        <div class="box-content">
+                            <p class="text-size-18">Duis aute irure dolor in reprehender in voluptate velit esse
+                                cillum dolore fugiat nulla pariatur excepteur sintoa caecat cupidata proident...</p>
+                            <ul class="list-unstyled mb-0">
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                            </ul>
+                            <div class="lower-portion">
+                                <span class="text-white text-size-16">Kevin Andrew</span>
+                                <span class="text-size-14">Happy Customer</span>
+                                <figure class="quote-image mb-0">
+                                    <img src="./assets/images/quote-image.png" class="img-fluid" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="image">
+                            <figure class="testimonial-image mb-0">
+                                <img src="./assets/images/testimonial-image2.png" class="img-fluid" alt="">
+                            </figure>
+                            <figure class="quote-icon mb-0">
+                                <img src="./assets/images/quote-icon.png" class="img-fluid" alt="">
+                            </figure>
+                        </div>                    
+                        <div class="box-content">
+                            <p class="text-size-18">Duis aute irure dolor in reprehender in voluptate velit esse
+                                cillum dolore fugiat nulla pariatur excepteur sintoa caecat cupidata proident...</p>
+                            <ul class="list-unstyled mb-0">
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                                <li><a href=""><i class="fa-solid fa-star"></i></a> </li>
+                            </ul>
+                            <div class="lower-portion">
+                                <span class="text-white text-size-16">Alina James</span>
+                                <span class="text-size-14">Happy Customer</span>
+                                <figure class="quote-image mb-0">
+                                    <img src="./assets/images/quote-image.png" class="img-fluid" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+</section> -->
+    <!-- Journey -->
+    <!-- <section class="journey-section shadow">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="journey_content" data-aos="fade-right">
+                        <h6>Join Us</h6>
+                        <h2>Initiate Your Experience with Us</h2>
+                    </div>
+                    <div class="journey-button">
+                        <a class="get_started text-decoration-none" href="./contact.php">Get Started</a>
+                        <a class="image-button text-decoration-none" href="./contact.php">
+                            <figure class="arrow mb-0">
+                                <img style="max-width: 50%;" src="./assets/images/arrow.png" alt="" class="img-fluid">
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="partner-section">
 
-   
-  </section>
-  <section id="how-it-works" class="how-section">
-    <div class="how-header">
-      <div class="label">How it works</div>
-      <h2 class="title">
-        How We Support 
- <span class="highlight">You</span><br>
-      </h2>
-    </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="partner_content aos-init aos-animate" data-aos="fade-right">
+                        <!-- <h6>Customers</h6> -->
+                        <h2>Associated With</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="owl-carousel owl-theme owl-loaded owl-drag">
 
-    <div class="how-content">
-      <div class="how-tabs">
-        <div class="how-tab" data-key="step1">
-          <h3>1.Strategy and Planning
-        </h3>
-          <p>Witness the transformative power of our strategic approach and meticulous planning as we craft tailored solutions to realize your vision and surpass your expectations.
 
-          </p>
-        </div>
-        <div class="how-tab" data-key="step2">
-          <h3>2.Concept Design
-        </h3>
-          <p>Explore the magic of our conceptual prowess as we craft designs that transcend the ordinary, breathing life into your vision and shaping spaces that resonate with your unique identity.
 
-          </p>
-        </div>
-        <div class="how-tab" data-key="step3">
-          <h3>3.Design Development
-        </h3>
-          <p>Experience the evolution of your vision into reality as we meticulously refine and enhance every detail, ensuring that our design development process brings your dreams to vibrant fruition.
 
-            </p>
-        </div>
-      </div>
-      <div class="how-image">
-        <img id="how-img" src="" alt="">
-      </div>
-    </div>
-  </section>
 
-  <section class="projects-carousel" id="work">
-    <div class="hero-content" style="margin-top: 6rem;">
-        <p style="text-align: center;color: #e1b261;">What's On the Horizon
 
-        </p>
 
-    <h2 style="text-align: center;">Spotlight on Our Recent Projects
 
-    </h2>
-    </div>
-    <div class="carousel-track-container">
-      <div class="carousel-track">
-        <div class="carousel-slide">
-          <img src="./n1.jpeg" alt="Project 1" />
-        </div>
-        <div class="carousel-slide">
-          <img src="n2.jpeg" alt="Project 2" />
-        </div>
-        <div class="carousel-slide">
-          <img src="n3.jpeg" alt="Project 3" />
-        </div>
-        <div class="carousel-slide">
-            <img src="n4.jpeg" alt="Project 2" />
-          </div>
-          <div class="carousel-slide">
-            <img src="n5.jpeg" alt="Project 2" />
-          </div>
-          <div class="carousel-slide">
-            <img src="n6.jpeg" alt="Project 2" />
-          </div>
-          <div class="carousel-slide">
-            <img src="n7.jpeg" alt="Project 2" />
-          </div>
-          <div class="carousel-slide">
-            <img src="n8.jpeg" alt="Project 2" />
-          </div>
-          <div class="carousel-slide">
-            <img src="n9.jpeg" alt="Project 2" />
-          </div>
-          <div class="carousel-slide">
-            <img src="n10.jpeg" alt="Project 2" />
-          </div>
-      </div>
-    </div>
-    <div class="carousel-radio-buttons">
-      <input type="radio" name="carousel" id="slide1" checked>
-      <input type="radio" name="carousel" id="slide2">
-      <input type="radio" name="carousel" id="slide3">
-      <input type="radio" name="carousel" id="slide4">
-      <input type="radio" name="carousel" id="slide5">
-      <input type="radio" name="carousel" id="slide6">
-      <input type="radio" name="carousel" id="slide7">
-      <input type="radio" name="carousel" id="slide8">
-      <input type="radio" name="carousel" id="slide9">
-      <input type="radio" name="carousel" id="slide10">
-    </div>
-    
-  </section>
 
-  <!-- ss -->
-  <!-- <section class="hero-join" id="join">
-    <div class="overlay"></div>
-    <div class="hero-content">
-      <div class="pre-title">Join Us</div>
-      <h1>Initiate Your Experience with Us</h1>
-      <button class="cta-btn" data-target="#next">
-        <span>Get Started</span>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <path fill="currentColor" d="M10 17l5-5-5-5v10z"/>
-        </svg>
-      </button>
-    </div>
-  </section> -->
-<!--  -->
-<section class="associated">
-    
-    <h2 class="associated-title">Associated With</h2>
-    <div class="carousel-container">
-      <div class="carousel-tracka">
-        <div class="carousel-slidea">
-          <img src="a1.webp" alt="Jaquar"/>
-        </div>
-        <div class="carousel-slidea">
-          <img src="a2.webp" alt="Supreme"/>
-        </div>
-        <div class="carousel-slidea">
-          <img src="a3.webp" alt="Häfele"/>
-        </div>
-        <div class="carousel-slidea">
-          <img src="a4.webp" alt="ACC"/>
-        </div>
-        <div class="carousel-slidea">
-          <img src="a5.webp" alt="Jaquar"/>
-        </div>
-        <div class="carousel-slidea">
-          <img src="a6.webp" alt="Supreme"/>
-        </div>
-        <div class="carousel-slidea">
-          <img src="a7" alt="Supreme"/>
-        </div>
-        <div class="carousel-slidea">
-          <img src="a8" alt="Supreme"/>
-        </div>
-        <div class="carousel-slidea">
-          <img src="a9" alt="Supreme"/>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- conatc -->
-  <section id="contact" class="contact-section">
-    <div class="contact-header">
-      <span class="badge">Contact</span>
-      <h2>Get in touch</h2>
-      <p>
-        For any inquiries or to explore your vision further, we invite you to
-        contact our professional team using the details provided below.
-      </p>
-    </div>
 
-    <div class="contact-details">
-      <!-- Info Grid -->
-      <div class="info-grid">
-        <div class="label">Office</div>
-        <div class="value">Fortune One Buildco Private Limited
-          1st Floor, No.19/3, B S Suresh Building,
-          Cunningham Road, Near Work (Prestige Center Point),
-          Vasanthnagar, Bengaluru 560052</div>
 
-        <div class="label">Email</div>
-        <div class="value">kabeer@onexuss.com
-        </div>
 
-        <div class="label">Telephone</div>
-        <div class="value">+91 95356 18065
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage" style="transform: translate3d(-3802px, 0px, 0px); transition: 0.25s; width: 7020px;">
+                            <div class="owl-item cloned" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a1.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a9.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a2.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a3.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a4.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a5.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a8.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a6.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a7.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a1.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a9.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a2.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a3.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a4.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a5.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a8.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a6.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a7.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a1.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a9.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a3.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a4.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a5.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a8.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a6.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 262.5px; margin-right: 30px;">
+                                <div class="item">
+                                    <div class="box">
+                                        <figure class="partner mb-0">
+                                            <img src="assets/images/a7.webp" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span
+                            aria-label="Previous" <i="" class="fa-solid fa-angle-left"></span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next" <i=""
+                            class="fa-solid fa-angle-right"></span></button></div>
+                    <div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button></div>
+                </div>
+            </div>
         </div>
-      </div>
+    </section>
+    <!-- Blog -->
+    <!-- Footer -->
+    <section class="footer-section">
+        <div class="container">
+            <div class="middle-portion">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                        <div class="logo-content">
+                            <a href="./">
+                                <figure class="footer-logo">
+                                    <img style="max-width: 70%;" src="onelogo.png" class="img-fluid" alt="">
+                                </figure>
+                            </a>
+                            <h3 class="text-white">Want to Create Something Great Together?</h3>
+                            <div class="footer-button">
+                                <a class="get_started text-decoration-none" href="contact">Get Started</a>
+                                <a class="image-button text-decoration-none" href="contact">
+                                    <figure class="arrow mb-0">
+                                        <img style="max-width: 50%;" src="assets/images/arrow.png" alt="" class="img-fluid">
+                                    </figure>
+                                </a>
+                            </div>
 
-      <!-- Divider -->
-      <hr class="info-divider"/>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                        <div class="links">
+                            <h4 class="text-white">Contact Info:</h4>
+                            <div class="lower-content">
+                                <figure class="icon">
+                                    <img style="max-width: 70%;" src="assets/images/footer-callicon.png" alt="" class="img-fluid">
+                                </figure>
+                                <div class="content">
+                                    <span class="text-size-16">Call us at:</span>
+                                    <a class="text-size-16 mb-0 text-decoration-none" href="tel:+91 95356 18065
+                                    ">+91 95356 18065
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="lower-content">
+                                <figure class="icon icon3">
+                                    <img style="max-width: 70%;" src="assets/images/footer-emailicon.png" alt="" class="img-fluid">
+                                </figure>
+                                <div class="content">
+                                    <span class="text-size-16">Email us at:</span>
+                                    <a href="mailto:kabeer@onexuss.com" class="text-size-16 mb-0 text-decoration-none">kabeer@onexuss.com
+                                    </a>
+                                </div>
+                            </div>
 
-      <!-- Social Icons -->
-      <div class="socials">
-        <p>Follow us</p>
-        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
-        <a href="#" aria-label="X (Twitter)"><i class="fab fa-x"></i></a>
-      </div>
-    </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="links info">
+                            <h4 class="text-white">Our Address:</h4>
+                            <div class="lower-content">
+                                <figure class="icon">
+                                    <img style="max-width: 70%;" src="assets/images/footer-locationicon.png" alt="" class="img-fluid">
+                                </figure>
+                                <div class="content">
+                                    <span class="text-size-16">Address:</span>
+                                    <h5 class="text-white">Head Office:</h5>
+                                    <p class="mb-0 text-size-18 pb-3">United home decor building, Darbe puttur, 574202 Mangalore.
+                                    </p>
+                                    <h5 class="text-white">Branch Address:</h5>
+                                    <p class="mb-0 text-size-18 ">
+                                      Fortune One Buildco Private Limited 1st Floor, No.19/3, B S Suresh Building, Cunningham Road, Near Work (Prestige Center Point), Vasanthnagar, Bengaluru 560052
+                                    </p>
+                                    <!-- <h5 class="text-white">Scan for Direction</h5>
+                                    <img style="max-width:100px; text-align:center;" src="assets/images/scanner.png" alt=""> -->
+                                </div>
+                            </div>
 
-    <!-- Contact Form -->
-    <div class="form-wrapper">
-      <form id="contactForm" novalidate>
-        <div class="form-group">
-          <label for="name">Name<span class="required">*</span></label>
-          <input type="text" id="name" name="name" placeholder="" required />
-        </div>
-        <div class="form-group">
-          <label for="phone">Phone Number<span class="required">*</span></label>
-          <input type="tel" id="phone" name="phone" placeholder="" required />
-        </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" placeholder="Your message…"></textarea>
-        </div>
-        <button type="submit" class="btn-submit">Send</button>
-      </form>
-    </div>
-  </section>
-  <!-- footer -->
-  <section class="footer-cta">
-    <div class="footer-grid">
-      <!-- Logo & CTA -->
-      <div class="col logo-col">
-        <img src="./lo.png" alt="United Group Logo" class="logo" />
-        <p class="tagline">Committed to be creative</p>
-        <h2 class="cta-title">Want to Create<br/>Something Great Together?</h2>
-        <button id="getStartedBtn" class="btn-cta">
-          <span>Get Started</span>
-          <svg viewBox="0 0 24 24"><path fill="currentColor" d="M10 17l5-5-5-5v10z"/></svg>
-        </button>
-      </div>
+                        </div>
 
-      <!-- Contact Info -->
-      <div class="col contact-col">
-        <h3>Contact Info:</h3>
-        <div class="info-item">
-          <i class="fas fa-phone"></i>
-          <span>+91 95356 18065</span>
-        </div>
-        <div class="info-item">
-          <i class="fas fa-envelope"></i>
-          <span>kabeer@onexuss.com</span>
-        </div>
-      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                        <div class="links">
+                            <h4 class="text-white">Associated With:</h4>
+                            <ul class="list-unstyled mb-0 p-0 position-absolute">
+                              <li><a href="https://instagram.com/unitedd_empire" class="text-decoration-none" target="_blank"><i class="fa-brands fa-instagram social-networks"></i></a></li>
+                          </ul>
+                         
+                            
+                        </div>
 
-      <!-- Addresses -->
-      <div class="col address-col">
-        <h3>Our Address:</h3>
-        <div class="addr-item">
-          <i class="fas fa-map-marker-alt"></i>
-          <div>
-            <strong>Head Office:</strong><br/>
-            United Home Decor Building,<br/>
-            Darbe Puttur, 574202 Mangalore.
-          </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="addr-item">
-          <div>
-            <strong>Branch Address:</strong><br/>
-           
-              Fortune One Buildco Private Limited
-              1st Floor, No.19/3, B S Suresh Building,
-              Cunningham Road, Near Work (Prestige Center Point),
-              Vasanthnagar, Bengaluru 560052
-
-          </div>
+        <figure class="footer-image mb-0">
+            <img src="assets/images/shape.png" style="max-width:250px;opacity:0.5" alt="">
+        </figure>
+        <!--footer area-->
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="text-size-14">Copyright © 2024 onexuss Group. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- <p class="scan-label">Scan for Direction</p>
-        <img src="assets/images/qr.png" alt="QR code for directions" class="qr-code"/> -->
-      </div>
-
-      <!-- Associated & Socials -->
-      <div class="col assoc-col">
-        <h3>Associated With:</h3>
-        <img src="https://unitednow.co/assets/images/interior/client.webp" alt="Bluetrack Interiors" class="assoc-logo"/>
-        <h3>Social Media Links:</h3>
-        <div class="socials">
-          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <!-- add more if needed -->
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <script src="script.js"></script>
+    </section>
+    <!-- Latest compiled JavaScript -->
+    <script src="assets/js/jquery-3.6.0.min.js">
+    </script>
+    <script src="assets/js/bootstrap.min.js">
+    </script>
+    <script src="assets/js/video_link.js"></script>
+    <script src="./assets/js/video.js"></script>
+    <script src="assets/js/counter.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/custom-carousel.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/animation_links.js"></script>
+    <script src="assets/js/animation.js"></script>
 </body>
-</html>
-   </div>
-  </section>
 
-  <script src="script.js"></script>
-</body>
 </html>
