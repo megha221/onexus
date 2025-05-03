@@ -1094,6 +1094,7 @@ p {
 
 .recentwork-section .owl-carousel .owl-item img {
     display: inline-block !important;
+    object-fit: cover;
 }
 
 .recentwork-section .owl-carousel .owl-nav {
