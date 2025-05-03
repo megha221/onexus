@@ -1080,6 +1080,7 @@ p {
 .recentwork-section .item .recentwork-image img {
     opacity: 100%;
     max-width: 800px;
+    height: 600px;
 }
 
 .recentwork-section .owl-carousel .item {
@@ -1471,7 +1472,8 @@ p {
 /* Footer */
 
 .footer-section {
-    background: url(../images/service-background.jpg);
+    /* background: url(../images/service-background.jpg); */
+    background: black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2594,6 +2596,10 @@ img {
     .responsive-image {
         width: 50%;
     }
+    .recentwork-section .item .recentwork-image img{
+        height: 400px
+    }
+    
 }
 
 .ftclr li {
