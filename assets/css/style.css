@@ -1485,7 +1485,7 @@ p {
 .footer-section .footer-logo {
     position: relative;
     top: 3px;
-    margin-bottom: 50px;
+    margin-bottom: -10px;
 }
 
 .footer-section .footer-image {
