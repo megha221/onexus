@@ -775,7 +775,7 @@
     }
     .footer-section .footer-logo {
         top: 0;
-        margin-bottom: 40px;
+        margin-bottom: -10px;
     }
     .footer-section .footer-logo img {
         width: 160px;
@@ -1738,7 +1738,7 @@
         padding-bottom: 48px;
     }
     .footer-section .footer-logo {
-        margin-bottom: 30px;
+        margin-bottom: -10px;
     }
     .footer-section .footer-logo img {
         width: 145px;
@@ -2509,7 +2509,7 @@
         padding-bottom: 38px;
     }
     .footer-section .footer-logo {
-        margin-bottom: 25px;
+        /* margin-bottom: 25px; */
     }
     .footer-section .footer-logo img {
         width: 135px;
