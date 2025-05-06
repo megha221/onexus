@@ -2660,7 +2660,7 @@ img {
   }
   @media (max-width: 767px) {
    .navbar{
-    height: 150px;
+    height: 184px;
     margin-top: -3rem;
    }
   }
